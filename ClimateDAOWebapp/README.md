@@ -25,3 +25,7 @@ we set the claim conditions for the NFT.
 
 ### Claim Conditions
 From there we have pretty much finished our membership NFT and they can be minted. We just need to set the claim conditions now. 
+
+### Deploy ERC 20 Token
+Once again Thirdweb made it just a function we justneed to pass an object into. We set the name and symbol and now it lives forever on the blockchain 
+here: 0x06e1D6387142fbe97B4dB57ee4D12D0cB5AB3493.
