@@ -1,4 +1,4 @@
-import sdk from "./1-initialize-sdk";
+import sdk from "./1-initialize-sdk.js";
 
 (async () => {
     try {
