@@ -16,3 +16,7 @@ is the faucet I used to get some test Eth. <a href="https://goerlifaucet.com/">G
 
 We used <a href="https://portal.thirdweb.com/sdk">Thirdweb's front-end SDK</a> to speed up development here. We used it to create a "Connect to Wallet" button and to connect to the right chainID.
 
+## DAO membership NFTs
+Now that thirdweb helped us connect to a user's wallet, we can check if they're in the DAO. The user needs a membership NFT and if they don't have one we'll 
+prompt them to mint one. Thirdweb really speeds up the process here, we can avoid writing any solidity because they've already done it all for us.
+We just need to write a script to create/deploy with the <a href="https://github.com/thirdweb-dev/contracts">standard contracts</a> they have made.
