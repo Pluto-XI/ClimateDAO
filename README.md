@@ -20,3 +20,6 @@ We used <a href="https://portal.thirdweb.com/sdk">Thirdweb's front-end SDK</a> t
 Now that thirdweb helped us connect to a user's wallet, we can check if they're in the DAO. The user needs a membership NFT and if they don't have one we'll 
 prompt them to mint one. Thirdweb really speeds up the process here, we can avoid writing any solidity because they've already done it all for us.
 We just need to write a script to create/deploy with the <a href="https://github.com/thirdweb-dev/contracts">standard contracts</a> they have made.
+
+Using the SDK we simplified our lives and used the SDK to deploy our contract from our wallet. 
+It is located here: 0xe19e046fa7135d081f7e39535E8E48fF6453735d
