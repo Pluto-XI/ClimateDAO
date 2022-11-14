@@ -8,7 +8,7 @@ When a proposal gets enough votes, it gets executed on-chain.
 
 Members can use governance tokens to vote on proposals, votes will be submitted on-chain. Voting power formulas can be custom, just because someone has a ton of tokens doesn't mean they have all of the power. 
 
-## Creating a web app to manage membership and proposals
+### Creating a web app to manage membership and proposals
 This app will allow users to connect their ETH wallets, mint a membership NFT, receive airdrop tokens, and actually vote on any DAO proposals.
 <b>Metamask</b> will allow our browser to call functions on smart contracts and provides an Ethereum address and private key. It's like authentication, and let's
 users "login" to the DAO, or any dapp. We'll be running on the <b>Goerli Test Network</b>. If you're looking at how this was made and are trying the same, here
