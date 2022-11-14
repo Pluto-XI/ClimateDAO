@@ -14,5 +14,5 @@ This app will allow users to connect their ETH wallets, mint a membership NFT, r
 users "login" to the DAO, or any dapp. We'll be running on the <b>Goerli Test Network</b>. If you're looking at how this was made and are trying the same, here
 is the faucet I used to get some test Eth. <a href="https://goerlifaucet.com/">Goerli Faucet</a>
 
-We used Thirdweb's front-end SDK to speed up development here. We used it to create a "Connect to Wallet" button and to connect to the right chainID.
+We used <a href="https://portal.thirdweb.com/sdk">Thirdweb's front-end SDK</a> to speed up development here. We used it to create a "Connect to Wallet" button and to connect to the right chainID.
 
