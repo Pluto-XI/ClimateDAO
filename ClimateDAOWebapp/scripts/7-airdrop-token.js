@@ -40,3 +40,6 @@ import sdk from "./1-initialize-sdk.js";
         console.error("Failed to airdrop tokens", error);
     }
 })();
+
+
+
