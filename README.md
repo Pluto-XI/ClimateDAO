@@ -12,7 +12,7 @@ Members can use governance tokens to vote on proposals, votes will be submitted 
 This app will allow users to connect their ETH wallets, mint a membership NFT, receive airdrop tokens, and actually vote on any DAO proposals.
 <b>Metamask</b> will allow our browser to call functions on smart contracts and provides an Ethereum address and private key. It's like authentication, and let's
 users "login" to the DAO, or any dapp. We'll be running on the <b>Goerli Test Network</b>. If you're looking at how this was made and are trying the same, here
-is the faucet I used to get some test Eth. <a href="https://goerlifaucet.com/">Goerli Faucet</a>
+is the faucet I used to get some test Eth. <a href="https://goerlifaucet.com/">Goerli Faucet</a>. Also <b>PLEASE DO NOT COMMIT YOUR PRIVATE KEY TO GITHUB</b> this is how you get robbed.
 
 We used <a href="https://portal.thirdweb.com/sdk">Thirdweb's front-end SDK</a> to speed up development here. We used it to create a "Connect to Wallet" button and to connect to the right chainID.
 
