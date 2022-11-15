@@ -62,6 +62,8 @@ We used a script to deploy our governance contract, which again is a standard th
 
 At this point we have built 3 contracts, our ERC-1155 membership NFT, our ERC-20 token contract, and our voting contract.
 
+This contract is where we can create proposals and the whole shebang. 
+
 ## Treasury
 The voting contract itself doesn't have the ability to move tokens around because <b>we created the supply</b>. Our wallet owns access to the entire
 supply. So only we have the power to airdop them, move them, etc. We need to transfer funds to our voting contract. 
@@ -80,5 +82,5 @@ To recap.
 
 ✅ built a dapp that lets people connect their wallet, get an NFT, see a DAO Dashboard where they can see other members + actually vote on proposals that are executed directly by your governance contract.
 
-Maybe in the future I'll pick up some tokenomics, learning about running an actual community and planning some road maps. But for now, here it lives on
+Maybe in the future I'll pick up some tokenomics, learn about running an actual community and planning some road maps. But for now, here it lives on
 the Ethereum blockchain. This was a humbling experience. Thank you to the <a href="https://buildspace.so/">buildspace community!</a>
