@@ -1,12 +1,22 @@
 # ClimateDAO
 This is a DAO created in an attempt to learn more about the Ethereum blockchain and EVM. This is a mock DAO that would in theory be using its treasury to fund climate related projects and offsets. This project will go over membership NFTs with the <a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/"><b>ERC-1155</b></a> standard, ERC20 tokens, and governance and treasury contracts.
 
+The site was deployed on Netlify and can be seen <a href="https://legendary-beignet-2835dd.netlify.app/"><b>here</b></a>.
+
 # What is a DAO?
 A DAO is a decentralized Autonomous Organization. It's an organization with no central leadership and decisions get made from the bottom up. 
 Simply put, it's a community of people with shared resources and decisions are made by voting on different proposals members create.
 When a proposal gets enough votes, it gets executed on-chain.
 
-Members can use governance tokens to vote on proposals, votes will be submitted on-chain. Voting power formulas can be custom, just because someone has a ton of tokens doesn't mean they have all of the power. 
+Members can use governance tokens to vote on proposals, votes will be submitted on-chain. Voting power formulas can be custom, just because someone has a ton of tokens doesn't mean they have all of the power.
+
+Our DAO has 3 main contracts.
+
+Our voting/governance contract: 0xbbdf71398E67C42e356DC94c5D56e90720F9BE6F
+Our Governance Token, ERC-20: 0x06e1D6387142fbe97B4dB57ee4D12D0cB5AB3493
+Our ERC-1155 Membership NFT: 0xe19e046fa7135d081f7e39535E8E48fF6453735d
+
+These can be looked at on Etherscan on the <a href="https://goerli.etherscan.io/token/0x06e1d6387142fbe97b4db57ee4d12d0cb5ab3493?a=0xbbdf71398E67C42e356DC94c5D56e90720F9BE6F">Goerli test network.</a>
 
 ### Creating a web app to manage membership and proposals
 This app will allow users to connect their ETH wallets, mint a membership NFT, receive airdrop tokens, and actually vote on any DAO proposals.
