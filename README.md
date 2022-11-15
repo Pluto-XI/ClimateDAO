@@ -1,7 +1,7 @@
 # ClimateDAO
 This is a DAO created in an attempt to learn more about the Ethereum blockchain and EVM. This is a mock DAO that would in theory be using its treasury to fund climate related projects and offsets. This project will go over membership NFTs with the <a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/"><b>ERC-1155</b></a> standard, ERC20 tokens, and governance and treasury contracts.
 
-The site was deployed on Netlify and can be seen <a href="https://legendary-beignet-2835dd.netlify.app/"><b>here</b></a>.
+#### The site was deployed on Netlify and can be seen <a href="https://legendary-beignet-2835dd.netlify.app/"><b>here</b></a>.
 
 # What is a DAO?
 A DAO is a decentralized Autonomous Organization. It's an organization with no central leadership and decisions get made from the bottom up. 
