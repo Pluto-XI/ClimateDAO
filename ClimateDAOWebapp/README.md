@@ -28,4 +28,7 @@ From there we have pretty much finished our membership NFT and they can be minte
 
 ### Deploy ERC 20 Token
 Once again Thirdweb made it just a function we justneed to pass an object into. We set the name and symbol and now it lives forever on the blockchain 
-here: 0x06e1D6387142fbe97B4dB57ee4D12D0cB5AB3493.
+here: 0x06e1D6387142fbe97B4dB57ee4D12D0cB5AB3493. We then used our "print money" script to set a token supply from then we whiched airdropped tokens.
+
+## Governance
+This was a fun part! We got our ERC-20 tokens running, we have our membership NFTs and our webview at this point can authenticate with a wallet.
