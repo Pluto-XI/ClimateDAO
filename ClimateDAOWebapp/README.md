@@ -32,3 +32,11 @@ here: 0x06e1D6387142fbe97B4dB57ee4D12D0cB5AB3493. We then used our "print money"
 
 ## Governance
 This was a fun part! We got our ERC-20 tokens running, we have our membership NFTs and our webview at this point can authenticate with a wallet.
+We used a script to deploy our governance contract, which again is a standard that can be found <a href="https://docs.openzeppelin.com/contracts/4.x/api/governance?utm_source=buildspace.so&utm_medium=buildspace_project">here.</a>. Thirdweb uses this exact contract <a href="https://github.com/thirdweb-dev/contracts/blob/main/contracts/vote/VoteERC20.sol?utm_source=buildspace.so&utm_medium=buildspace_project">here</a>.
+
+At this point we have built 3 contracts, our ERC-1155 membership NFT, our ERC-20 token contract, and our voting contract.
+
+## Treasury
+The voting contract itself doesn't have the ability to move tokens around because <b>we created the supply</b>. Our wallet owns access to the entire
+supply. So only we have the power to airdop them, move them, etc. We need to transfer funds to our voting contract. 
+I will transfer 90% into the contract. This way the voting contract itself will have the supply and it will become our DAO's treasury.

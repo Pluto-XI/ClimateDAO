@@ -22,7 +22,7 @@ import sdk from "./1-initialize-sdk.js";
 
       // The minimum % of the total supply that need to vote for
       // the proposal to be valid after the time for the proposal has ended.
-      voting_quorum_fraction: 51,
+      voting_quorum_fraction: 25,
 
       // What's the minimum # of tokens a user needs to be allowed to create a proposal?
       // I set it to 0. Meaning no tokens are required for a user to be allowed to
