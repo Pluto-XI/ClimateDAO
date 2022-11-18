@@ -7,6 +7,7 @@ body {
   background-color: #0f4122;
   color: #fff;
   overflow-x: hidden;
+  background-image: url(../public/background.webp);
 }
 #root {
   min-height: 100vh;
