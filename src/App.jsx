@@ -166,6 +166,7 @@ useEffect(() => {
         <div className="btn-hero">
           <ConnectWallet />
         </div>
+        <p>This is a project that was created in order to learn how DAOs worked. It uses the ThirdWeb SDK and React. If you're interested in seeing the sourcecode for this project, please view it on <a href="https://github.com/Pluto-XI/ClimateDAO">Github</a></p>
       </div>
     );
   }
